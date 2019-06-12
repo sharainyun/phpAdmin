@@ -1,0 +1,214 @@
+.ggg_user{
+     //form表单 无边框
+    .noborder{
+        .el-input__inner{
+            border:0!important;
+        }
+        .el-textarea{
+            textarea{
+                // resize : none;
+                // border:0;
+            }
+        }
+    }
+    .haveborder{
+        .el-input__inner{
+                border: 1px solid #bfcbd9!important;
+        }
+        .el-textarea{
+            textarea{
+                resize : none;
+                border: 1px solid #bfcbd9!important;
+            }
+        }
+    }
+    .font_bold{
+        font-weight:bold;
+    }
+    // .autoAlert{
+    //     .el-dialog{
+    //         &.el-dialog--small{
+    //             min-width:300px;
+    //             max-width:430px;
+                
+    //         }
+    //     }
+    // }
+    //复文本弹窗
+    .autoAlert{
+        //复文本宽度
+        .weditor_width {
+            .filter-container {
+                width: 100%!important;
+                overflow-x: auto!important;
+            }
+        }
+        .el-dialog__body{
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    }
+     .widthLang{ 
+         .el-select {
+            display:block!important;
+        }
+     }
+    // 折叠图标左边
+    .el-collapse-left{
+        .el-collapse-item__arrow{
+            float: left!important;
+        }
+        .el-collapse-item__arrow{
+            margin-right:15px;
+        }
+        &.el-collapse {
+            border-top: 0px solid #ebeef5;
+            border-bottom: 0px solid #ebeef5;
+            .el-collapse-item{
+                 border: 1px solid #ebeef5;
+                 border-bottom: 0px solid #ebeef5;
+                 &:last-child{
+                     border-bottom: 1px solid #ebeef5;
+                 }
+                 .el-collapse-item__header{
+                     border-bottom: 0px solid #ebeef5;
+                     padding:0 15px;
+                     &.is-active{
+                          border-bottom: 1px solid #ebeef5;
+                     }
+                 }
+                 .el-collapse-item__wrap{
+                     border-bottom: 0px solid #ebeef5;
+                     padding:10px 15px;
+                     background-color: #fbfdff;
+                 }
+            }
+           
+        }
+    }
+    // .autoAlert2{
+    //     .el-dialog{
+    //         &.el-dialog--small{
+    //             min-width:300px;
+    //             max-width:600px;
+                
+    //         }
+    //     }
+    // }
+    .fl{
+        float: left;
+    }
+    .table{
+        border-collapse:collapse;
+        border-spacing:0;
+        // border-bottom:1px solid #e2e2e2;
+        tr{
+            td{
+                padding:10px 15px!important;
+                border-bottom:0;
+                border-right:0;
+                &:last-child{
+                     border-right:1px solid #e2e2e2;
+                }
+            }
+            &:last-child{
+                td{
+                    // border-bottom:1px solid #e2e2e2;
+                }
+            }
+        }
+        .el-form-item {
+            margin-bottom: 0!important;
+        }
+    }
+    //组件显示图片
+    .upLoadingAlert{
+        .el-upload-list__item.is-success.el-list-enter-to{
+            width:120px;
+            display: inline-block;
+            margin-right:10px;
+        }
+        .el-upload-list__item .is-success{
+            width:120px;
+            display: inline-block;
+            margin-right:10px;
+        }
+        .el-upload-list--picture .el-upload-list__item {
+            width:120px;
+            display: inline-block;
+            margin-right:10px;
+        }
+    }
+    //直接显示图片
+    .upLoadingAlert1{
+          .el-upload-list__item.is-success.el-list-enter-to{
+            width:220px;
+            height:220px;
+            display: inline-block;
+            margin-right:10px;
+        }
+        .el-upload-list__item .is-success{
+            width:220px;
+            height:220px;
+            display: inline-block;
+            margin-right:10px;
+            text-align: center;
+        }
+        .el-upload-list--picture .el-upload-list__item {
+            width:220px;
+            height:220px;
+            display: inline-block;
+            margin-right:10px;
+        }
+        .el-upload-list__item-thumbnail{
+            width:200px;
+            height:200px;
+            z-index: 0;
+        }
+    }
+    // 详情身份证
+    .idCardMax{
+        img{
+            max-width: 300px;
+        }
+    }
+    .imgLoadButtonCenter{
+        .el-upload--picture-card {
+            padding-top:60px;
+        }
+
+    }
+}
+// 时间控件
+.el-picker-panel.el-date-range-picker{
+    td,th{ 
+      border: 0; 
+      padding: 0!important;
+    }
+    tr,th,td{ 
+        text-align: center;
+    }
+}
+.el-picker-panel.el-date-picker{
+    td,th{ 
+      border: 0; 
+      padding: 0!important;
+    }
+    tr,th,td{ 
+        text-align: center;
+    }
+    tbody tr:hover{
+        background-color: transparent;
+    }
+}
+//按钮hove图片
+.el-tooltip__popper{
+    img{
+        width:100px!important;
+    }
+}
+//消息自定义类名
+.MessageCustomClass{
+    z-index: 2007;
+    // 弹框zindex2006
+}
