@@ -33,7 +33,7 @@
     "json-loader": "0.5.7",
     "less": "2.7.2",
     "less-loader": "4.0.5",
-    "node-sass": "4.5.3",
+    "node-sass": "4.14.1",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "summernote-webpack-fix": "0.8.2",
